@@ -1,0 +1,30 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.Top_element{
+  flex: 1;
+  text-align: center;
+}
+
+.lower_element{
+  display: flex;
+  flex: 2;
+}
+
+.left_element{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.right_element{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
